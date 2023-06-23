@@ -1,0 +1,219 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*タイトル*/
+h1 {
+	padding: 20px 0;
+	color: #FFC20E;
+	-webkit-text-stroke: 1px #C7A252;
+  	text-stroke: 1px #C7A252;
+}
+
+/*メニュー*/
+h2 {
+	padding: 20px 0;
+}
+
+hr {
+	margin-bottom: 20px;
+}
+
+/*ナビゲーション*/
+#nav {
+	position: absolute;
+	top: 38px;
+	right: 85px;
+}
+
+#nav li {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+li {
+	padding: 5px;
+}
+
+/*ヘッダー*/
+header {
+	padding-top: 10px;
+	border-bottom: 5px solid #E3A857;
+	text-align: center;
+}
+
+/*フッター*/
+footer {
+	position: absolute;
+	width: 100%;
+	height: 120px;
+	bottom: 0px;
+	border-top: 2px solid #D1AC76;
+}
+
+/*メニュー*/
+#menu {
+	width: 100%;
+	position: relative;
+	border-bottom: 5px solid #E3A857;
+}
+
+/*タイトル*/
+#title{
+	width: 100%;
+	margin: 0 auto;
+	background-color: #FFE8AF;
+}
+
+/*一覧テーブル*/
+.list{
+	text-align: center;
+	width: 100%;
+	height: 20%;
+}
+
+/*一覧テーブル*/
+.list th{
+	background-color: #FFE8AF;
+}
+
+/*一覧テーブル*/
+.list td{
+	background-color: #FFEFCF;
+	border-bottom: solid 1px black;
+}
+
+/*検索フォーム*/
+.center {
+	text-align: center;
+}
+
+/* 追加分中央揃えに使ったやつです。他にいいのがあったら捨て置いてください */
+.CenterItem{
+    text-align: center;
+    width: 850px;
+    margin: 0 auto;
+}
+
+/*エラー*/
+.error {
+	text-align: center;
+	margin-top: 50px;
+}
+
+h3.check {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: -25px;
+}
+
+/*ユーザーチェック*/
+table.user_check {
+	margin: 50px auto;
+}
+
+table.user_check td.left {
+	text-align: left;
+	background-color: #FFEFCF;
+	text-indent: 10px;
+	width: 150px;
+}
+
+/*ボタン*/
+table.user_check td.btn {
+	padding-top: 25px;
+}
+
+.button {
+	width: 60px;
+}
+
+.container {
+	width: 850px;
+	margin: 0 auto;
+}
+
+/*詳細テーブル*/
+.detail-table {
+	width: 100%;
+}
+
+/* 会員登録画面のCSS */
+
+.user_insert tr td{
+	text-align: left;
+	
+}
+
+#insert_btn{
+	width: 100px;
+	height: 30px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#page_title {
+    text-align: center;
+     position: relative;
+    background-color: #FFF1EB;
+    width: 100%;
+}
+
+.layout{
+	table-layout: fixed;
+}
+
+.insertList{
+	text-align: center;
+	width: 100%;
+	height: 20%;
+	table-layout: fixed;
+
+}
+
+.insertList th{
+	background-color: #FFE8AF;
+}
+
+/*一覧テーブル*/
+.insertList td{
+	background-color: #FFEFCF;
+	border-bottom: solid 1px black;
+}
+
+.menu{
+	text-align: center;
+	width: 100%;
+}
+
+#admin_page_title {
+    text-align: center;
+     position: relative;
+    background-color: #AFDFE4;
+    width: 100%;
+}
+
+/*メニュー*/
+#adminMenu {
+	width: 100%;
+	position: relative;
+	border-bottom: 5px solid #E3A857;
+}
+
+/*タイトル*/
+#admin_title{
+	width: 100%;
+	margin: 0 auto;
+	background-color: #003F8E;
+}
+
+.color{
+	color: #FFC20E;
+}
